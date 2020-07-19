@@ -165,7 +165,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="mainscreen locator"/>
                                                 <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="n7O-Tu-3hn"/>
+                                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="WxD-Jn-S84"/>
                                                 </connections>
                                             </button>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T6V-o3-0WI">
@@ -602,7 +602,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="mainscreen locator"/>
                                                 <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="Ui2-mQ-LHM"/>
+                                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="AWg-N0-w30"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gkD-PE-Rhj">
@@ -778,6 +778,9 @@
                                         <rect key="frame" x="581" y="237" width="131" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" backgroundImage="mainscreen locator"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="showDetail" id="JYo-65-1De"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2yy-Ix-9pZ">
                                         <rect key="frame" x="566" y="-2" width="170" height="59"/>
@@ -1070,10 +1073,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="hIn-3h-BOL"/>
-        <segue reference="5uj-uM-s8Z"/>
-        <segue reference="lD6-ry-lv3"/>
-        <segue reference="lj3-wk-KQO"/>
+        <segue reference="doL-6c-BHN"/>
+        <segue reference="iP2-Vr-uxf"/>
+        <segue reference="AWg-N0-w30"/>
+        <segue reference="gcS-FA-iTZ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Ship" width="1129" height="978"/>
